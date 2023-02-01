@@ -9,7 +9,7 @@
 
 h1{
     text-align: center;
-    margin-top: 66px;
+    margin-top: 100px;
 }
 
 #container{
@@ -27,6 +27,8 @@ h1{
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    font-weight: 700;
+    font-size: 25px;
 }
 
 #contador-principal{
@@ -37,7 +39,8 @@ h1{
     height: 200px;
     background-color: #577AF8;
     border-radius: 15px;
-    margin: 200px 41px 200px 41px;
+    margin: 150px 41px 200px 41px;
+    font-size: 25px;
 }
 
 #button-soma{
@@ -48,5 +51,9 @@ h1{
     height: 75px;
     background-color: #577AF8;
     border-radius: 10px;
+    font-weight: 700;
+    font-size: 25px;
 }
+
+
 
