@@ -10,7 +10,17 @@
 h1{
     text-align: center;
     margin-top: 100px;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 700;
+
+    background: -webkit-linear-gradient(left,#E122F2 0%, #22D3F2 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
+
 
 #container{
     display: flex;
@@ -29,18 +39,23 @@ h1{
     border-radius: 10px;
     font-weight: 700;
     font-size: 25px;
+    cursor: pointer;
+}
+
+#button-subtracao:hover{
+    background-color: #E122F2;
 }
 
 #contador-principal{
     display: flex;
-    align-items: center;
     justify-content: center;
+    text-align: center;
     width: 200px;
     height: 200px;
     background-color: #577AF8;
     border-radius: 15px;
     margin: 150px 41px 200px 41px;
-    font-size: 25px;
+    font-size: 50px;
 }
 
 #button-soma{
@@ -53,7 +68,10 @@ h1{
     border-radius: 10px;
     font-weight: 700;
     font-size: 25px;
+    cursor: pointer;
 }
 
-
+#button-soma:hover{
+    background-color: #E122F2;
+}
 
