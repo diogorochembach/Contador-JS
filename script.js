@@ -1,5 +1,5 @@
-const buttonSubtracao = document.getElementById("button-subtracao");
 const contador = document.getElementById("contador-principal");
+const buttonSubtracao = document.getElementById("button-subtracao");
 const buttonSoma = document.getElementById("button-soma");
 
 let value = contador.value;
